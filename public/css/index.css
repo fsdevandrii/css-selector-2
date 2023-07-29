@@ -1,5 +1,5 @@
 /* Урок 4  Завдання №1. */
-.btn:hover {
+.lesson-four-task-one button:hover {
   background: yellow;
   color: red;
 }
@@ -39,7 +39,7 @@
 /* Завдання №8. */
 input[type='checkbox']:checked ~ div {
   color: white;
-  background: green;
+  background: blue;
 }
 
 /* Завдання №9. */
@@ -48,10 +48,11 @@ p:lang(uk) {
 }
 
 /* Завдання №10. */
-.form-group,
+/* .form-group,
 .username:enabled,
-.pasvord:enabled,
-form:enabled {
+.pasvord:enabled, */
+
+.form-control:enabled {
   color: red;
   background: yellow;
 }
